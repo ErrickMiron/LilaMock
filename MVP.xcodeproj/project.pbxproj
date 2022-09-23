@@ -1,0 +1,961 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		391ECCB328C52BB20009A1F9 /* NewViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 391ECCB228C52BB20009A1F9 /* NewViewController.swift */; };
+		391ECCB728C52C510009A1F9 /* SwiftDate in Frameworks */ = {isa = PBXBuildFile; productRef = 391ECCB628C52C510009A1F9 /* SwiftDate */; };
+		391ECCBA28C52C750009A1F9 /* SwissEphemeris in Frameworks */ = {isa = PBXBuildFile; productRef = 391ECCB928C52C750009A1F9 /* SwissEphemeris */; };
+		391ECCBE28C52D040009A1F9 /* planets.swift in Sources */ = {isa = PBXBuildFile; fileRef = 391ECCBD28C52D040009A1F9 /* planets.swift */; };
+		391ECCC328C52E490009A1F9 /* Houses.swift in Sources */ = {isa = PBXBuildFile; fileRef = 391ECCC228C52E490009A1F9 /* Houses.swift */; };
+		391ECCCE28C530740009A1F9 /* empjis.swift in Sources */ = {isa = PBXBuildFile; fileRef = 391ECCCD28C530740009A1F9 /* empjis.swift */; };
+		391ECCD028C530A50009A1F9 /* locManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 391ECCCF28C530A50009A1F9 /* locManager.swift */; };
+		391ECCD528C54FC80009A1F9 /* SynastryViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 391ECCD428C54FC80009A1F9 /* SynastryViewController.swift */; };
+		391ECCD728C54FFA0009A1F9 /* MyItemsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 391ECCD628C54FFA0009A1F9 /* MyItemsViewController.swift */; };
+		391ECCD928C550120009A1F9 /* PartnersItemsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 391ECCD828C550120009A1F9 /* PartnersItemsViewController.swift */; };
+		391ECCDB28C550250009A1F9 /* CompositeItemsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 391ECCDA28C550250009A1F9 /* CompositeItemsViewController.swift */; };
+		391ECCE128C5536A0009A1F9 /* SunViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 391ECCE028C5536A0009A1F9 /* SunViewController.swift */; };
+		391ECCE328C553CF0009A1F9 /* partnersHouses.swift in Sources */ = {isa = PBXBuildFile; fileRef = 391ECCE228C553CF0009A1F9 /* partnersHouses.swift */; };
+		391ECCE528C554410009A1F9 /* PartnersProgressions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 391ECCE428C554410009A1F9 /* PartnersProgressions.swift */; };
+		391ECCE728C55A990009A1F9 /* ddViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 391ECCE628C55A990009A1F9 /* ddViewController.swift */; };
+		391ECCE928C561550009A1F9 /* TodayViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 391ECCE828C561550009A1F9 /* TodayViewController.swift */; };
+		391ECCEB28C561C30009A1F9 /* Natal Houses.swift in Sources */ = {isa = PBXBuildFile; fileRef = 391ECCEA28C561C30009A1F9 /* Natal Houses.swift */; };
+		391ECCED28C561EE0009A1F9 /* NatalAspectsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 391ECCEC28C561EE0009A1F9 /* NatalAspectsViewController.swift */; };
+		391ECCEF28C5623C0009A1F9 /* Natal Aspects.swift in Sources */ = {isa = PBXBuildFile; fileRef = 391ECCEE28C5623C0009A1F9 /* Natal Aspects.swift */; };
+		391ECCF128C562570009A1F9 /* TransitAspectsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 391ECCF028C562570009A1F9 /* TransitAspectsViewController.swift */; };
+		391ECCF328C562980009A1F9 /* moving sun aspects.swift in Sources */ = {isa = PBXBuildFile; fileRef = 391ECCF228C562980009A1F9 /* moving sun aspects.swift */; };
+		391ECCF528C562C70009A1F9 /* MajorAspectsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 391ECCF428C562C70009A1F9 /* MajorAspectsViewController.swift */; };
+		391ECCF728C563010009A1F9 /* Major progressed aspects.swift in Sources */ = {isa = PBXBuildFile; fileRef = 391ECCF628C563010009A1F9 /* Major progressed aspects.swift */; };
+		391ECCF928C563730009A1F9 /* progression aspect location manager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 391ECCF828C563730009A1F9 /* progression aspect location manager.swift */; };
+		391ECCFB28C590300009A1F9 /* location Manager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 391ECCFA28C590300009A1F9 /* location Manager.swift */; };
+		391ECCFD28C59C0B0009A1F9 /* FirstViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 391ECCFC28C59C0B0009A1F9 /* FirstViewController.swift */; };
+		395C3B9528BA953500A4E812 /* FirstHouseViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 395C3B9428BA953500A4E812 /* FirstHouseViewController.swift */; };
+		395C3B9728BA9A1500A4E812 /* HousesCustomTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 395C3B9628BA9A1500A4E812 /* HousesCustomTableViewCell.swift */; };
+		395C3B9928BA9ACE00A4E812 /* HousesPlanetsSigns.swift in Sources */ = {isa = PBXBuildFile; fileRef = 395C3B9828BA9ACE00A4E812 /* HousesPlanetsSigns.swift */; };
+		395C3B9B28BAAE3400A4E812 /* FirstFirstHousePlanetViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 395C3B9A28BAAE3400A4E812 /* FirstFirstHousePlanetViewController.swift */; };
+		395C3B9D28BABAA500A4E812 /* SecondHouseViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 395C3B9C28BABAA500A4E812 /* SecondHouseViewController.swift */; };
+		395C3B9F28BABEF000A4E812 /* ThirdHouseViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 395C3B9E28BABEF000A4E812 /* ThirdHouseViewController.swift */; };
+		395C3BA128BAC20600A4E812 /* FourthHouseViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 395C3BA028BAC20600A4E812 /* FourthHouseViewController.swift */; };
+		395C3BA328BAC94100A4E812 /* FifthHouseViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 395C3BA228BAC94100A4E812 /* FifthHouseViewController.swift */; };
+		395C3BA528BAC95000A4E812 /* SixthHouseViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 395C3BA428BAC95000A4E812 /* SixthHouseViewController.swift */; };
+		395C3BA728BAC9B800A4E812 /* SeventhHouseViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 395C3BA628BAC9B800A4E812 /* SeventhHouseViewController.swift */; };
+		395C3BA928BACAB200A4E812 /* EighthHouseViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 395C3BA828BACAB200A4E812 /* EighthHouseViewController.swift */; };
+		395C3BAB28BACABC00A4E812 /* NinthHouseViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 395C3BAA28BACABC00A4E812 /* NinthHouseViewController.swift */; };
+		395C3BAD28BACAD400A4E812 /* TenthHouseViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 395C3BAC28BACAD400A4E812 /* TenthHouseViewController.swift */; };
+		395C3BAF28BACAE000A4E812 /* EleventhHouseViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 395C3BAE28BACAE000A4E812 /* EleventhHouseViewController.swift */; };
+		395C3BB328BACDAF00A4E812 /* TwelthHouseViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 395C3BB228BACDAF00A4E812 /* TwelthHouseViewController.swift */; };
+		395C3BB528BAD5E400A4E812 /* SecondHousePlanetViewController copy.swift in Sources */ = {isa = PBXBuildFile; fileRef = 395C3BB428BAD5E400A4E812 /* SecondHousePlanetViewController copy.swift */; };
+		395C3BB728BAD61000A4E812 /* TwelfthHousePlanetViewController copy.swift in Sources */ = {isa = PBXBuildFile; fileRef = 395C3BB628BAD61000A4E812 /* TwelfthHousePlanetViewController copy.swift */; };
+		395C3BB928BAD61200A4E812 /* ThirdHousePlanetViewController copy 2.swift in Sources */ = {isa = PBXBuildFile; fileRef = 395C3BB828BAD61200A4E812 /* ThirdHousePlanetViewController copy 2.swift */; };
+		395C3BBB28BAD61400A4E812 /* FourthHousePlanetViewController copy 3.swift in Sources */ = {isa = PBXBuildFile; fileRef = 395C3BBA28BAD61400A4E812 /* FourthHousePlanetViewController copy 3.swift */; };
+		395C3BBD28BAD61600A4E812 /* FifthHousePlanetViewController copy 4.swift in Sources */ = {isa = PBXBuildFile; fileRef = 395C3BBC28BAD61600A4E812 /* FifthHousePlanetViewController copy 4.swift */; };
+		395C3BBF28BAD61700A4E812 /* NinthHousePlanetViewController copy 5.swift in Sources */ = {isa = PBXBuildFile; fileRef = 395C3BBE28BAD61700A4E812 /* NinthHousePlanetViewController copy 5.swift */; };
+		395C3BC128BAD61800A4E812 /* SeventhHousePlanetViewController copy 6.swift in Sources */ = {isa = PBXBuildFile; fileRef = 395C3BC028BAD61800A4E812 /* SeventhHousePlanetViewController copy 6.swift */; };
+		395C3BC328BAD61900A4E812 /* SixthHousePlanetViewController copy 7.swift in Sources */ = {isa = PBXBuildFile; fileRef = 395C3BC228BAD61900A4E812 /* SixthHousePlanetViewController copy 7.swift */; };
+		395C3BC528BAD61B00A4E812 /* EighthHousePlanetViewController copy 8.swift in Sources */ = {isa = PBXBuildFile; fileRef = 395C3BC428BAD61B00A4E812 /* EighthHousePlanetViewController copy 8.swift */; };
+		395C3BC728BAD61C00A4E812 /* TenthHousePlanetViewController copy 9.swift in Sources */ = {isa = PBXBuildFile; fileRef = 395C3BC628BAD61C00A4E812 /* TenthHousePlanetViewController copy 9.swift */; };
+		395C3BC928BAD61D00A4E812 /* EleventhHousePlanetViewController copy 10.swift in Sources */ = {isa = PBXBuildFile; fileRef = 395C3BC828BAD61D00A4E812 /* EleventhHousePlanetViewController copy 10.swift */; };
+		395C3BCB28BAE00700A4E812 /* EighthHousePlanetViewController2.swift in Sources */ = {isa = PBXBuildFile; fileRef = 395C3BCA28BAE00700A4E812 /* EighthHousePlanetViewController2.swift */; };
+		395C3BCD28BAE74A00A4E812 /* NinthHousePlanetViewController2 copy.swift in Sources */ = {isa = PBXBuildFile; fileRef = 395C3BCC28BAE74A00A4E812 /* NinthHousePlanetViewController2 copy.swift */; };
+		395FD69028DAD2A900AC046F /* minors.swift in Sources */ = {isa = PBXBuildFile; fileRef = 395FD68F28DAD2A900AC046F /* minors.swift */; };
+		3961EEFB28D5789E00302A21 /* AspectsCustomTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3961EEFA28D5789E00302A21 /* AspectsCustomTableViewCell.swift */; };
+		3961EEFD28D58B9700302A21 /* moonAspects.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3961EEFC28D58B9700302A21 /* moonAspects.swift */; };
+		3961EEFF28D58DE400302A21 /* mercuryAspects.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3961EEFE28D58DE400302A21 /* mercuryAspects.swift */; };
+		3961EF0128D58E5C00302A21 /* venusAspects.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3961EF0028D58E5C00302A21 /* venusAspects.swift */; };
+		3961EF0328D58EEE00302A21 /* marsAspects.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3961EF0228D58EEE00302A21 /* marsAspects.swift */; };
+		3961EF0528D58EF800302A21 /* jupiterAspects.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3961EF0428D58EF800302A21 /* jupiterAspects.swift */; };
+		3961EF0728D58F0900302A21 /* saturnAspects.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3961EF0628D58F0900302A21 /* saturnAspects.swift */; };
+		3961EF0928D58F1500302A21 /* uranusAspects.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3961EF0828D58F1500302A21 /* uranusAspects.swift */; };
+		3961EF0B28D58F2000302A21 /* neptuneAspects.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3961EF0A28D58F2000302A21 /* neptuneAspects.swift */; };
+		3961EF0D28D58F2F00302A21 /* plutoAspects.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3961EF0C28D58F2F00302A21 /* plutoAspects.swift */; };
+		3961EF0F28D5921900302A21 /* aspectsInfo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3961EF0E28D5921900302A21 /* aspectsInfo.swift */; };
+		3961EF1128D62C5700302A21 /* PlanetsAspectsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3961EF1028D62C5700302A21 /* PlanetsAspectsViewController.swift */; };
+		3961EF1328D63D3E00302A21 /* nataljupiteraspects.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3961EF1228D63D3E00302A21 /* nataljupiteraspects.swift */; };
+		3961EF1628D6404800302A21 /* NatalSunAspectsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3961EF1528D6404800302A21 /* NatalSunAspectsViewController.swift */; };
+		3961EF1828D6405500302A21 /* NatalMoonAspectsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3961EF1728D6405500302A21 /* NatalMoonAspectsViewController.swift */; };
+		3961EF1A28D642E500302A21 /* NatalAscendantAspectsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3961EF1928D642E500302A21 /* NatalAscendantAspectsViewController.swift */; };
+		3961EF1C28D642F200302A21 /* NatalMercuryAspectsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3961EF1B28D642F200302A21 /* NatalMercuryAspectsViewController.swift */; };
+		3961EF1E28D642FC00302A21 /* NatalVenusAspectsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3961EF1D28D642FC00302A21 /* NatalVenusAspectsViewController.swift */; };
+		3961EF2028D6431200302A21 /* NatalMarsAspectsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3961EF1F28D6431200302A21 /* NatalMarsAspectsViewController.swift */; };
+		3961EF2228D6432B00302A21 /* NatalJupiterAspectsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3961EF2128D6432B00302A21 /* NatalJupiterAspectsViewController.swift */; };
+		3961EF2428D6433400302A21 /* NatalSaturnAspectsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3961EF2328D6433400302A21 /* NatalSaturnAspectsViewController.swift */; };
+		3961EF2628D6434300302A21 /* NatalUranusAspectsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3961EF2528D6434300302A21 /* NatalUranusAspectsViewController.swift */; };
+		3961EF2828D6434D00302A21 /* NataNeptuneAspectsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3961EF2728D6434D00302A21 /* NataNeptuneAspectsViewController.swift */; };
+		3961EF2A28D6435A00302A21 /* NatalPlutoAspectsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3961EF2928D6435A00302A21 /* NatalPlutoAspectsViewController.swift */; };
+		3961EF2C28D6465900302A21 /* natalSunAspects.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3961EF2B28D6465900302A21 /* natalSunAspects.swift */; };
+		3961EF2E28D646A300302A21 /* natalMoonAspects.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3961EF2D28D646A300302A21 /* natalMoonAspects.swift */; };
+		3961EF3028D646BC00302A21 /* natalMercuryAspects.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3961EF2F28D646BC00302A21 /* natalMercuryAspects.swift */; };
+		3961EF3228D646C600302A21 /* natalVenusAspects.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3961EF3128D646C600302A21 /* natalVenusAspects.swift */; };
+		3961EF3428D646CF00302A21 /* natalMarsAspects.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3961EF3328D646CF00302A21 /* natalMarsAspects.swift */; };
+		3961EF3628D646E400302A21 /* natalSaturnAspects.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3961EF3528D646E400302A21 /* natalSaturnAspects.swift */; };
+		3961EF3828D646F500302A21 /* natalUranusAspects.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3961EF3728D646F500302A21 /* natalUranusAspects.swift */; };
+		3961EF3A28D6470300302A21 /* natalNeptuneAspects.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3961EF3928D6470300302A21 /* natalNeptuneAspects.swift */; };
+		3961EF3C28D6471100302A21 /* natalPlutoAspects.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3961EF3B28D6471100302A21 /* natalPlutoAspects.swift */; };
+		3961EF4028D68B3400302A21 /* natalAscAspects.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3961EF3F28D68B3400302A21 /* natalAscAspects.swift */; };
+		3961EF4428D8028B00302A21 /* MajorProgressionsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3961EF4328D8028B00302A21 /* MajorProgressionsViewController.swift */; };
+		3961EF7528DA8F3000302A21 /* Minors Location Manager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3961EF7428DA8F3000302A21 /* Minors Location Manager.swift */; };
+		3961EF7728DAADCB00302A21 /* MinorProgressedViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3961EF7628DAADCB00302A21 /* MinorProgressedViewController.swift */; };
+		398341D528C8362100201E4C /* MercuryViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 398341D428C8362100201E4C /* MercuryViewController.swift */; };
+		398341D728C8362C00201E4C /* VenusViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 398341D628C8362C00201E4C /* VenusViewController.swift */; };
+		398341D928C8363600201E4C /* MarsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 398341D828C8363600201E4C /* MarsViewController.swift */; };
+		398341DB28C8364000201E4C /* JupiterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 398341DA28C8364000201E4C /* JupiterViewController.swift */; };
+		398341DD28C8364A00201E4C /* SaturnViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 398341DC28C8364A00201E4C /* SaturnViewController.swift */; };
+		398341DF28C8365400201E4C /* UranusViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 398341DE28C8365400201E4C /* UranusViewController.swift */; };
+		398341E128C8366100201E4C /* NeptuneViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 398341E028C8366100201E4C /* NeptuneViewController.swift */; };
+		398341E328C8366B00201E4C /* PlutoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 398341E228C8366B00201E4C /* PlutoViewController.swift */; };
+		398341E628C83A7500201E4C /* PlanetsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 398341E528C83A7500201E4C /* PlanetsViewController.swift */; };
+		398341E828C83B0200201E4C /* MyPlanetsTextViewViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 398341E728C83B0200201E4C /* MyPlanetsTextViewViewController.swift */; };
+		398341EA28C85BC200201E4C /* secondnewViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 398341E928C85BC200201E4C /* secondnewViewController.swift */; };
+		39B24FB728B7178D0080CE79 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 39B24FB628B7178D0080CE79 /* AppDelegate.swift */; };
+		39B24FB928B7178D0080CE79 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 39B24FB828B7178D0080CE79 /* SceneDelegate.swift */; };
+		39B24FBB28B7178D0080CE79 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 39B24FBA28B7178D0080CE79 /* ViewController.swift */; };
+		39B24FBE28B7178D0080CE79 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 39B24FBC28B7178D0080CE79 /* Main.storyboard */; };
+		39B24FC128B7178D0080CE79 /* MVP.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 39B24FBF28B7178D0080CE79 /* MVP.xcdatamodeld */; };
+		39B24FC328B7178D0080CE79 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 39B24FC228B7178D0080CE79 /* Assets.xcassets */; };
+		39B24FC628B7178D0080CE79 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 39B24FC428B7178D0080CE79 /* LaunchScreen.storyboard */; };
+		39B24FCE28B71A390080CE79 /* CustomTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 39B24FCD28B71A390080CE79 /* CustomTableViewCell.swift */; };
+		39B24FD028B7C7440080CE79 /* PlanetsSIgns.swift in Sources */ = {isa = PBXBuildFile; fileRef = 39B24FCF28B7C7440080CE79 /* PlanetsSIgns.swift */; };
+		39C77DE428D2EFF400C02B12 /* TransitPlanetsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 39C77DE328D2EFF400C02B12 /* TransitPlanetsViewController.swift */; };
+		39C77DE628D2F3C100C02B12 /* PartnersPlanetsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 39C77DE528D2F3C100C02B12 /* PartnersPlanetsViewController.swift */; };
+		39C77DE828D2FC5900C02B12 /* AscendantViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 39C77DE728D2FC5900C02B12 /* AscendantViewController.swift */; };
+		39C77DEA28D3649B00C02B12 /* MovingSunViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 39C77DE928D3649B00C02B12 /* MovingSunViewController.swift */; };
+		39C77DEC28D364AA00C02B12 /* MovingMoonViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 39C77DEB28D364AA00C02B12 /* MovingMoonViewController.swift */; };
+		39C77DEE28D364BC00C02B12 /* MovingAscendantViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 39C77DED28D364BC00C02B12 /* MovingAscendantViewController.swift */; };
+		39C77DF028D364CD00C02B12 /* MovingMercuryViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 39C77DEF28D364CD00C02B12 /* MovingMercuryViewController.swift */; };
+		39C77DF228D364D700C02B12 /* MovingVenusViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 39C77DF128D364D700C02B12 /* MovingVenusViewController.swift */; };
+		39C77DF428D364E200C02B12 /* MovingMarsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 39C77DF328D364E200C02B12 /* MovingMarsViewController.swift */; };
+		39C77DF628D364ED00C02B12 /* MovingJupiterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 39C77DF528D364ED00C02B12 /* MovingJupiterViewController.swift */; };
+		39C77DF828D364F900C02B12 /* MovingSaturnViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 39C77DF728D364F900C02B12 /* MovingSaturnViewController.swift */; };
+		39C77DFA28D3650600C02B12 /* MovingUranusViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 39C77DF928D3650600C02B12 /* MovingUranusViewController.swift */; };
+		39C77DFC28D3650F00C02B12 /* MovingNeptuneViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 39C77DFB28D3650F00C02B12 /* MovingNeptuneViewController.swift */; };
+		39C77DFE28D3651B00C02B12 /* MovingPlutoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 39C77DFD28D3651B00C02B12 /* MovingPlutoViewController.swift */; };
+		39DA3AAE28C5A31F0018FD09 /* MyHousesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 39DA3AAD28C5A31F0018FD09 /* MyHousesViewController.swift */; };
+		39DA3AB128C5B2890018FD09 /* MoonViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 39DA3AB028C5B2890018FD09 /* MoonViewController.swift */; };
+		39DB7B3F28BC375C008CB278 /* FirstFirstHousePlanetViewController copy2.swift in Sources */ = {isa = PBXBuildFile; fileRef = 39DB7B3E28BC375C008CB278 /* FirstFirstHousePlanetViewController copy2.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		391ECCB228C52BB20009A1F9 /* NewViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewViewController.swift; sourceTree = "<group>"; };
+		391ECCBD28C52D040009A1F9 /* planets.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = planets.swift; sourceTree = "<group>"; };
+		391ECCC228C52E490009A1F9 /* Houses.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Houses.swift; sourceTree = "<group>"; };
+		391ECCCD28C530740009A1F9 /* empjis.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = empjis.swift; sourceTree = "<group>"; };
+		391ECCCF28C530A50009A1F9 /* locManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = locManager.swift; sourceTree = "<group>"; };
+		391ECCD428C54FC80009A1F9 /* SynastryViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SynastryViewController.swift; sourceTree = "<group>"; };
+		391ECCD628C54FFA0009A1F9 /* MyItemsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyItemsViewController.swift; sourceTree = "<group>"; };
+		391ECCD828C550120009A1F9 /* PartnersItemsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PartnersItemsViewController.swift; sourceTree = "<group>"; };
+		391ECCDA28C550250009A1F9 /* CompositeItemsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CompositeItemsViewController.swift; sourceTree = "<group>"; };
+		391ECCE028C5536A0009A1F9 /* SunViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SunViewController.swift; sourceTree = "<group>"; };
+		391ECCE228C553CF0009A1F9 /* partnersHouses.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = partnersHouses.swift; sourceTree = "<group>"; };
+		391ECCE428C554410009A1F9 /* PartnersProgressions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PartnersProgressions.swift; sourceTree = "<group>"; };
+		391ECCE628C55A990009A1F9 /* ddViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ddViewController.swift; sourceTree = "<group>"; };
+		391ECCE828C561550009A1F9 /* TodayViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TodayViewController.swift; sourceTree = "<group>"; };
+		391ECCEA28C561C30009A1F9 /* Natal Houses.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Natal Houses.swift"; sourceTree = "<group>"; };
+		391ECCEC28C561EE0009A1F9 /* NatalAspectsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NatalAspectsViewController.swift; sourceTree = "<group>"; };
+		391ECCEE28C5623C0009A1F9 /* Natal Aspects.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Natal Aspects.swift"; sourceTree = "<group>"; };
+		391ECCF028C562570009A1F9 /* TransitAspectsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TransitAspectsViewController.swift; sourceTree = "<group>"; };
+		391ECCF228C562980009A1F9 /* moving sun aspects.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "moving sun aspects.swift"; sourceTree = "<group>"; };
+		391ECCF428C562C70009A1F9 /* MajorAspectsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MajorAspectsViewController.swift; sourceTree = "<group>"; };
+		391ECCF628C563010009A1F9 /* Major progressed aspects.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Major progressed aspects.swift"; sourceTree = "<group>"; };
+		391ECCF828C563730009A1F9 /* progression aspect location manager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "progression aspect location manager.swift"; sourceTree = "<group>"; };
+		391ECCFA28C590300009A1F9 /* location Manager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "location Manager.swift"; sourceTree = "<group>"; };
+		391ECCFC28C59C0B0009A1F9 /* FirstViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirstViewController.swift; sourceTree = "<group>"; };
+		395C3B9428BA953500A4E812 /* FirstHouseViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirstHouseViewController.swift; sourceTree = "<group>"; };
+		395C3B9628BA9A1500A4E812 /* HousesCustomTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HousesCustomTableViewCell.swift; sourceTree = "<group>"; };
+		395C3B9828BA9ACE00A4E812 /* HousesPlanetsSigns.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HousesPlanetsSigns.swift; sourceTree = "<group>"; };
+		395C3B9A28BAAE3400A4E812 /* FirstFirstHousePlanetViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirstFirstHousePlanetViewController.swift; sourceTree = "<group>"; };
+		395C3B9C28BABAA500A4E812 /* SecondHouseViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondHouseViewController.swift; sourceTree = "<group>"; };
+		395C3B9E28BABEF000A4E812 /* ThirdHouseViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ThirdHouseViewController.swift; sourceTree = "<group>"; };
+		395C3BA028BAC20600A4E812 /* FourthHouseViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FourthHouseViewController.swift; sourceTree = "<group>"; };
+		395C3BA228BAC94100A4E812 /* FifthHouseViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FifthHouseViewController.swift; sourceTree = "<group>"; };
+		395C3BA428BAC95000A4E812 /* SixthHouseViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SixthHouseViewController.swift; sourceTree = "<group>"; };
+		395C3BA628BAC9B800A4E812 /* SeventhHouseViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SeventhHouseViewController.swift; sourceTree = "<group>"; };
+		395C3BA828BACAB200A4E812 /* EighthHouseViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EighthHouseViewController.swift; sourceTree = "<group>"; };
+		395C3BAA28BACABC00A4E812 /* NinthHouseViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NinthHouseViewController.swift; sourceTree = "<group>"; };
+		395C3BAC28BACAD400A4E812 /* TenthHouseViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TenthHouseViewController.swift; sourceTree = "<group>"; };
+		395C3BAE28BACAE000A4E812 /* EleventhHouseViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EleventhHouseViewController.swift; sourceTree = "<group>"; };
+		395C3BB228BACDAF00A4E812 /* TwelthHouseViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TwelthHouseViewController.swift; sourceTree = "<group>"; };
+		395C3BB428BAD5E400A4E812 /* SecondHousePlanetViewController copy.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "SecondHousePlanetViewController copy.swift"; sourceTree = "<group>"; };
+		395C3BB628BAD61000A4E812 /* TwelfthHousePlanetViewController copy.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "TwelfthHousePlanetViewController copy.swift"; sourceTree = "<group>"; };
+		395C3BB828BAD61200A4E812 /* ThirdHousePlanetViewController copy 2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "ThirdHousePlanetViewController copy 2.swift"; sourceTree = "<group>"; };
+		395C3BBA28BAD61400A4E812 /* FourthHousePlanetViewController copy 3.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "FourthHousePlanetViewController copy 3.swift"; sourceTree = "<group>"; };
+		395C3BBC28BAD61600A4E812 /* FifthHousePlanetViewController copy 4.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "FifthHousePlanetViewController copy 4.swift"; sourceTree = "<group>"; };
+		395C3BBE28BAD61700A4E812 /* NinthHousePlanetViewController copy 5.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "NinthHousePlanetViewController copy 5.swift"; sourceTree = "<group>"; };
+		395C3BC028BAD61800A4E812 /* SeventhHousePlanetViewController copy 6.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "SeventhHousePlanetViewController copy 6.swift"; sourceTree = "<group>"; };
+		395C3BC228BAD61900A4E812 /* SixthHousePlanetViewController copy 7.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "SixthHousePlanetViewController copy 7.swift"; sourceTree = "<group>"; };
+		395C3BC428BAD61B00A4E812 /* EighthHousePlanetViewController copy 8.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "EighthHousePlanetViewController copy 8.swift"; sourceTree = "<group>"; };
+		395C3BC628BAD61C00A4E812 /* TenthHousePlanetViewController copy 9.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "TenthHousePlanetViewController copy 9.swift"; sourceTree = "<group>"; };
+		395C3BC828BAD61D00A4E812 /* EleventhHousePlanetViewController copy 10.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "EleventhHousePlanetViewController copy 10.swift"; sourceTree = "<group>"; };
+		395C3BCA28BAE00700A4E812 /* EighthHousePlanetViewController2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EighthHousePlanetViewController2.swift; sourceTree = "<group>"; };
+		395C3BCC28BAE74A00A4E812 /* NinthHousePlanetViewController2 copy.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "NinthHousePlanetViewController2 copy.swift"; sourceTree = "<group>"; };
+		395FD68F28DAD2A900AC046F /* minors.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = minors.swift; sourceTree = "<group>"; };
+		3961EEFA28D5789E00302A21 /* AspectsCustomTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AspectsCustomTableViewCell.swift; sourceTree = "<group>"; };
+		3961EEFC28D58B9700302A21 /* moonAspects.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = moonAspects.swift; sourceTree = "<group>"; };
+		3961EEFE28D58DE400302A21 /* mercuryAspects.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = mercuryAspects.swift; sourceTree = "<group>"; };
+		3961EF0028D58E5C00302A21 /* venusAspects.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = venusAspects.swift; sourceTree = "<group>"; };
+		3961EF0228D58EEE00302A21 /* marsAspects.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = marsAspects.swift; sourceTree = "<group>"; };
+		3961EF0428D58EF800302A21 /* jupiterAspects.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = jupiterAspects.swift; sourceTree = "<group>"; };
+		3961EF0628D58F0900302A21 /* saturnAspects.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = saturnAspects.swift; sourceTree = "<group>"; };
+		3961EF0828D58F1500302A21 /* uranusAspects.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = uranusAspects.swift; sourceTree = "<group>"; };
+		3961EF0A28D58F2000302A21 /* neptuneAspects.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = neptuneAspects.swift; sourceTree = "<group>"; };
+		3961EF0C28D58F2F00302A21 /* plutoAspects.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = plutoAspects.swift; sourceTree = "<group>"; };
+		3961EF0E28D5921900302A21 /* aspectsInfo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = aspectsInfo.swift; sourceTree = "<group>"; };
+		3961EF1028D62C5700302A21 /* PlanetsAspectsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlanetsAspectsViewController.swift; sourceTree = "<group>"; };
+		3961EF1228D63D3E00302A21 /* nataljupiteraspects.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = nataljupiteraspects.swift; sourceTree = "<group>"; };
+		3961EF1528D6404800302A21 /* NatalSunAspectsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NatalSunAspectsViewController.swift; sourceTree = "<group>"; };
+		3961EF1728D6405500302A21 /* NatalMoonAspectsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NatalMoonAspectsViewController.swift; sourceTree = "<group>"; };
+		3961EF1928D642E500302A21 /* NatalAscendantAspectsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NatalAscendantAspectsViewController.swift; sourceTree = "<group>"; };
+		3961EF1B28D642F200302A21 /* NatalMercuryAspectsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NatalMercuryAspectsViewController.swift; sourceTree = "<group>"; };
+		3961EF1D28D642FC00302A21 /* NatalVenusAspectsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NatalVenusAspectsViewController.swift; sourceTree = "<group>"; };
+		3961EF1F28D6431200302A21 /* NatalMarsAspectsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NatalMarsAspectsViewController.swift; sourceTree = "<group>"; };
+		3961EF2128D6432B00302A21 /* NatalJupiterAspectsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NatalJupiterAspectsViewController.swift; sourceTree = "<group>"; };
+		3961EF2328D6433400302A21 /* NatalSaturnAspectsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NatalSaturnAspectsViewController.swift; sourceTree = "<group>"; };
+		3961EF2528D6434300302A21 /* NatalUranusAspectsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NatalUranusAspectsViewController.swift; sourceTree = "<group>"; };
+		3961EF2728D6434D00302A21 /* NataNeptuneAspectsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NataNeptuneAspectsViewController.swift; sourceTree = "<group>"; };
+		3961EF2928D6435A00302A21 /* NatalPlutoAspectsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NatalPlutoAspectsViewController.swift; sourceTree = "<group>"; };
+		3961EF2B28D6465900302A21 /* natalSunAspects.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = natalSunAspects.swift; sourceTree = "<group>"; };
+		3961EF2D28D646A300302A21 /* natalMoonAspects.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = natalMoonAspects.swift; sourceTree = "<group>"; };
+		3961EF2F28D646BC00302A21 /* natalMercuryAspects.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = natalMercuryAspects.swift; sourceTree = "<group>"; };
+		3961EF3128D646C600302A21 /* natalVenusAspects.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = natalVenusAspects.swift; sourceTree = "<group>"; };
+		3961EF3328D646CF00302A21 /* natalMarsAspects.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = natalMarsAspects.swift; sourceTree = "<group>"; };
+		3961EF3528D646E400302A21 /* natalSaturnAspects.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = natalSaturnAspects.swift; sourceTree = "<group>"; };
+		3961EF3728D646F500302A21 /* natalUranusAspects.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = natalUranusAspects.swift; sourceTree = "<group>"; };
+		3961EF3928D6470300302A21 /* natalNeptuneAspects.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = natalNeptuneAspects.swift; sourceTree = "<group>"; };
+		3961EF3B28D6471100302A21 /* natalPlutoAspects.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = natalPlutoAspects.swift; sourceTree = "<group>"; };
+		3961EF3F28D68B3400302A21 /* natalAscAspects.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = natalAscAspects.swift; sourceTree = "<group>"; };
+		3961EF4328D8028B00302A21 /* MajorProgressionsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MajorProgressionsViewController.swift; sourceTree = "<group>"; };
+		3961EF7428DA8F3000302A21 /* Minors Location Manager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = "Minors Location Manager.swift"; path = "../../../Just the Two of Us/Just the Two of Us/Minors Location Manager.swift"; sourceTree = "<group>"; };
+		3961EF7628DAADCB00302A21 /* MinorProgressedViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MinorProgressedViewController.swift; sourceTree = "<group>"; };
+		398341D428C8362100201E4C /* MercuryViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MercuryViewController.swift; sourceTree = "<group>"; };
+		398341D628C8362C00201E4C /* VenusViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VenusViewController.swift; sourceTree = "<group>"; };
+		398341D828C8363600201E4C /* MarsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MarsViewController.swift; sourceTree = "<group>"; };
+		398341DA28C8364000201E4C /* JupiterViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JupiterViewController.swift; sourceTree = "<group>"; };
+		398341DC28C8364A00201E4C /* SaturnViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SaturnViewController.swift; sourceTree = "<group>"; };
+		398341DE28C8365400201E4C /* UranusViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UranusViewController.swift; sourceTree = "<group>"; };
+		398341E028C8366100201E4C /* NeptuneViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NeptuneViewController.swift; sourceTree = "<group>"; };
+		398341E228C8366B00201E4C /* PlutoViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlutoViewController.swift; sourceTree = "<group>"; };
+		398341E528C83A7500201E4C /* PlanetsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlanetsViewController.swift; sourceTree = "<group>"; };
+		398341E728C83B0200201E4C /* MyPlanetsTextViewViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyPlanetsTextViewViewController.swift; sourceTree = "<group>"; };
+		398341E928C85BC200201E4C /* secondnewViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = secondnewViewController.swift; sourceTree = "<group>"; };
+		39B24FB328B7178D0080CE79 /* MVP.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MVP.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		39B24FB628B7178D0080CE79 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		39B24FB828B7178D0080CE79 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		39B24FBA28B7178D0080CE79 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		39B24FBD28B7178D0080CE79 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		39B24FC028B7178D0080CE79 /* MVP.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = MVP.xcdatamodel; sourceTree = "<group>"; };
+		39B24FC228B7178D0080CE79 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		39B24FC528B7178D0080CE79 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		39B24FC728B7178D0080CE79 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		39B24FCD28B71A390080CE79 /* CustomTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomTableViewCell.swift; sourceTree = "<group>"; };
+		39B24FCF28B7C7440080CE79 /* PlanetsSIgns.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlanetsSIgns.swift; sourceTree = "<group>"; };
+		39C77DE328D2EFF400C02B12 /* TransitPlanetsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TransitPlanetsViewController.swift; sourceTree = "<group>"; };
+		39C77DE528D2F3C100C02B12 /* PartnersPlanetsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PartnersPlanetsViewController.swift; sourceTree = "<group>"; };
+		39C77DE728D2FC5900C02B12 /* AscendantViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AscendantViewController.swift; sourceTree = "<group>"; };
+		39C77DE928D3649B00C02B12 /* MovingSunViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MovingSunViewController.swift; sourceTree = "<group>"; };
+		39C77DEB28D364AA00C02B12 /* MovingMoonViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MovingMoonViewController.swift; sourceTree = "<group>"; };
+		39C77DED28D364BC00C02B12 /* MovingAscendantViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MovingAscendantViewController.swift; sourceTree = "<group>"; };
+		39C77DEF28D364CD00C02B12 /* MovingMercuryViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MovingMercuryViewController.swift; sourceTree = "<group>"; };
+		39C77DF128D364D700C02B12 /* MovingVenusViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MovingVenusViewController.swift; sourceTree = "<group>"; };
+		39C77DF328D364E200C02B12 /* MovingMarsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MovingMarsViewController.swift; sourceTree = "<group>"; };
+		39C77DF528D364ED00C02B12 /* MovingJupiterViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MovingJupiterViewController.swift; sourceTree = "<group>"; };
+		39C77DF728D364F900C02B12 /* MovingSaturnViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MovingSaturnViewController.swift; sourceTree = "<group>"; };
+		39C77DF928D3650600C02B12 /* MovingUranusViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MovingUranusViewController.swift; sourceTree = "<group>"; };
+		39C77DFB28D3650F00C02B12 /* MovingNeptuneViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MovingNeptuneViewController.swift; sourceTree = "<group>"; };
+		39C77DFD28D3651B00C02B12 /* MovingPlutoViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MovingPlutoViewController.swift; sourceTree = "<group>"; };
+		39DA3AAD28C5A31F0018FD09 /* MyHousesViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyHousesViewController.swift; sourceTree = "<group>"; };
+		39DA3AB028C5B2890018FD09 /* MoonViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MoonViewController.swift; sourceTree = "<group>"; };
+		39DB7B3E28BC375C008CB278 /* FirstFirstHousePlanetViewController copy2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "FirstFirstHousePlanetViewController copy2.swift"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		39B24FB028B7178D0080CE79 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				391ECCB728C52C510009A1F9 /* SwiftDate in Frameworks */,
+				391ECCBA28C52C750009A1F9 /* SwissEphemeris in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		391ECCD128C539F00009A1F9 /* Info Files */ = {
+			isa = PBXGroup;
+			children = (
+				391ECCCF28C530A50009A1F9 /* locManager.swift */,
+				391ECCCD28C530740009A1F9 /* empjis.swift */,
+				39B24FCF28B7C7440080CE79 /* PlanetsSIgns.swift */,
+				391ECCBD28C52D040009A1F9 /* planets.swift */,
+				395C3B9828BA9ACE00A4E812 /* HousesPlanetsSigns.swift */,
+				391ECCF228C562980009A1F9 /* moving sun aspects.swift */,
+				3961EF2B28D6465900302A21 /* natalSunAspects.swift */,
+				3961EF3F28D68B3400302A21 /* natalAscAspects.swift */,
+				3961EF2D28D646A300302A21 /* natalMoonAspects.swift */,
+				3961EF2F28D646BC00302A21 /* natalMercuryAspects.swift */,
+				3961EF3128D646C600302A21 /* natalVenusAspects.swift */,
+				3961EF3328D646CF00302A21 /* natalMarsAspects.swift */,
+				3961EF3528D646E400302A21 /* natalSaturnAspects.swift */,
+				3961EF3728D646F500302A21 /* natalUranusAspects.swift */,
+				3961EF3928D6470300302A21 /* natalNeptuneAspects.swift */,
+				3961EF3B28D6471100302A21 /* natalPlutoAspects.swift */,
+				3961EEFC28D58B9700302A21 /* moonAspects.swift */,
+				3961EEFE28D58DE400302A21 /* mercuryAspects.swift */,
+				3961EF0028D58E5C00302A21 /* venusAspects.swift */,
+				3961EF0228D58EEE00302A21 /* marsAspects.swift */,
+				3961EF0428D58EF800302A21 /* jupiterAspects.swift */,
+				3961EF1228D63D3E00302A21 /* nataljupiteraspects.swift */,
+				3961EF0628D58F0900302A21 /* saturnAspects.swift */,
+				3961EF0828D58F1500302A21 /* uranusAspects.swift */,
+				3961EF0A28D58F2000302A21 /* neptuneAspects.swift */,
+				3961EF0C28D58F2F00302A21 /* plutoAspects.swift */,
+				391ECCF628C563010009A1F9 /* Major progressed aspects.swift */,
+				391ECCEE28C5623C0009A1F9 /* Natal Aspects.swift */,
+				391ECCEA28C561C30009A1F9 /* Natal Houses.swift */,
+				391ECCE228C553CF0009A1F9 /* partnersHouses.swift */,
+				391ECCE428C554410009A1F9 /* PartnersProgressions.swift */,
+				391ECCC228C52E490009A1F9 /* Houses.swift */,
+				39B24FCD28B71A390080CE79 /* CustomTableViewCell.swift */,
+				3961EF0E28D5921900302A21 /* aspectsInfo.swift */,
+				3961EF7428DA8F3000302A21 /* Minors Location Manager.swift */,
+				395FD68F28DAD2A900AC046F /* minors.swift */,
+				395C3B9628BA9A1500A4E812 /* HousesCustomTableViewCell.swift */,
+				3961EEFA28D5789E00302A21 /* AspectsCustomTableViewCell.swift */,
+			);
+			path = "Info Files";
+			sourceTree = "<group>";
+		};
+		391ECCD228C53A250009A1F9 /* House View Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				395C3B9428BA953500A4E812 /* FirstHouseViewController.swift */,
+				395C3B9C28BABAA500A4E812 /* SecondHouseViewController.swift */,
+				395C3B9E28BABEF000A4E812 /* ThirdHouseViewController.swift */,
+				395C3BA028BAC20600A4E812 /* FourthHouseViewController.swift */,
+				395C3BA228BAC94100A4E812 /* FifthHouseViewController.swift */,
+				395C3BA428BAC95000A4E812 /* SixthHouseViewController.swift */,
+				395C3BA628BAC9B800A4E812 /* SeventhHouseViewController.swift */,
+				395C3BA828BACAB200A4E812 /* EighthHouseViewController.swift */,
+				395C3BAA28BACABC00A4E812 /* NinthHouseViewController.swift */,
+				395C3BAC28BACAD400A4E812 /* TenthHouseViewController.swift */,
+				395C3BAE28BACAE000A4E812 /* EleventhHouseViewController.swift */,
+				395C3BB228BACDAF00A4E812 /* TwelthHouseViewController.swift */,
+			);
+			path = "House View Controllers";
+			sourceTree = "<group>";
+		};
+		391ECCD328C53A7E0009A1F9 /* Planets in Houses View Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				395C3B9A28BAAE3400A4E812 /* FirstFirstHousePlanetViewController.swift */,
+				39DB7B3E28BC375C008CB278 /* FirstFirstHousePlanetViewController copy2.swift */,
+				395C3BB428BAD5E400A4E812 /* SecondHousePlanetViewController copy.swift */,
+				395C3BB828BAD61200A4E812 /* ThirdHousePlanetViewController copy 2.swift */,
+				395C3BBA28BAD61400A4E812 /* FourthHousePlanetViewController copy 3.swift */,
+				395C3BBC28BAD61600A4E812 /* FifthHousePlanetViewController copy 4.swift */,
+				395C3BC228BAD61900A4E812 /* SixthHousePlanetViewController copy 7.swift */,
+				395C3BC028BAD61800A4E812 /* SeventhHousePlanetViewController copy 6.swift */,
+				395C3BC428BAD61B00A4E812 /* EighthHousePlanetViewController copy 8.swift */,
+				395C3BCA28BAE00700A4E812 /* EighthHousePlanetViewController2.swift */,
+				395C3BBE28BAD61700A4E812 /* NinthHousePlanetViewController copy 5.swift */,
+				395C3BCC28BAE74A00A4E812 /* NinthHousePlanetViewController2 copy.swift */,
+				395C3BC628BAD61C00A4E812 /* TenthHousePlanetViewController copy 9.swift */,
+				395C3BC828BAD61D00A4E812 /* EleventhHousePlanetViewController copy 10.swift */,
+				395C3BB628BAD61000A4E812 /* TwelfthHousePlanetViewController copy.swift */,
+			);
+			path = "Planets in Houses View Controllers";
+			sourceTree = "<group>";
+		};
+		3961EF1428D6401B00302A21 /* Natal Aspects VCs */ = {
+			isa = PBXGroup;
+			children = (
+				3961EF1528D6404800302A21 /* NatalSunAspectsViewController.swift */,
+				3961EF1728D6405500302A21 /* NatalMoonAspectsViewController.swift */,
+				3961EF1928D642E500302A21 /* NatalAscendantAspectsViewController.swift */,
+				3961EF1B28D642F200302A21 /* NatalMercuryAspectsViewController.swift */,
+				3961EF1D28D642FC00302A21 /* NatalVenusAspectsViewController.swift */,
+				3961EF1F28D6431200302A21 /* NatalMarsAspectsViewController.swift */,
+				3961EF2128D6432B00302A21 /* NatalJupiterAspectsViewController.swift */,
+				3961EF2328D6433400302A21 /* NatalSaturnAspectsViewController.swift */,
+				3961EF2528D6434300302A21 /* NatalUranusAspectsViewController.swift */,
+				3961EF2728D6434D00302A21 /* NataNeptuneAspectsViewController.swift */,
+				3961EF2928D6435A00302A21 /* NatalPlutoAspectsViewController.swift */,
+			);
+			path = "Natal Aspects VCs";
+			sourceTree = "<group>";
+		};
+		398341E428C83A6800201E4C /* Moving Planets ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				39C77DE928D3649B00C02B12 /* MovingSunViewController.swift */,
+				39C77DEB28D364AA00C02B12 /* MovingMoonViewController.swift */,
+				39C77DED28D364BC00C02B12 /* MovingAscendantViewController.swift */,
+				39C77DEF28D364CD00C02B12 /* MovingMercuryViewController.swift */,
+				39C77DF128D364D700C02B12 /* MovingVenusViewController.swift */,
+				39C77DF328D364E200C02B12 /* MovingMarsViewController.swift */,
+				39C77DF528D364ED00C02B12 /* MovingJupiterViewController.swift */,
+				39C77DF728D364F900C02B12 /* MovingSaturnViewController.swift */,
+				39C77DF928D3650600C02B12 /* MovingUranusViewController.swift */,
+				39C77DFB28D3650F00C02B12 /* MovingNeptuneViewController.swift */,
+				39C77DFD28D3651B00C02B12 /* MovingPlutoViewController.swift */,
+			);
+			path = "Moving Planets ViewControllers";
+			sourceTree = "<group>";
+		};
+		39B24FAA28B7178D0080CE79 = {
+			isa = PBXGroup;
+			children = (
+				39B24FB528B7178D0080CE79 /* MVP */,
+				39B24FB428B7178D0080CE79 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		39B24FB428B7178D0080CE79 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				39B24FB328B7178D0080CE79 /* MVP.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		39B24FB528B7178D0080CE79 /* MVP */ = {
+			isa = PBXGroup;
+			children = (
+				39B24FB628B7178D0080CE79 /* AppDelegate.swift */,
+				39B24FB828B7178D0080CE79 /* SceneDelegate.swift */,
+				39B24FBA28B7178D0080CE79 /* ViewController.swift */,
+				391ECCD228C53A250009A1F9 /* House View Controllers */,
+				391ECCD128C539F00009A1F9 /* Info Files */,
+				391ECCD328C53A7E0009A1F9 /* Planets in Houses View Controllers */,
+				39B24FBC28B7178D0080CE79 /* Main.storyboard */,
+				391ECCB228C52BB20009A1F9 /* NewViewController.swift */,
+				398341E928C85BC200201E4C /* secondnewViewController.swift */,
+				391ECCFC28C59C0B0009A1F9 /* FirstViewController.swift */,
+				391ECCD428C54FC80009A1F9 /* SynastryViewController.swift */,
+				391ECCFA28C590300009A1F9 /* location Manager.swift */,
+				391ECCF428C562C70009A1F9 /* MajorAspectsViewController.swift */,
+				391ECCF828C563730009A1F9 /* progression aspect location manager.swift */,
+				391ECCE828C561550009A1F9 /* TodayViewController.swift */,
+				391ECCD628C54FFA0009A1F9 /* MyItemsViewController.swift */,
+				39DA3AAD28C5A31F0018FD09 /* MyHousesViewController.swift */,
+				398341E728C83B0200201E4C /* MyPlanetsTextViewViewController.swift */,
+				391ECCE628C55A990009A1F9 /* ddViewController.swift */,
+				391ECCDA28C550250009A1F9 /* CompositeItemsViewController.swift */,
+				398341E428C83A6800201E4C /* Moving Planets ViewControllers */,
+				391ECCD828C550120009A1F9 /* PartnersItemsViewController.swift */,
+				3961EF1428D6401B00302A21 /* Natal Aspects VCs */,
+				391ECCF028C562570009A1F9 /* TransitAspectsViewController.swift */,
+				391ECCEC28C561EE0009A1F9 /* NatalAspectsViewController.swift */,
+				398341E528C83A7500201E4C /* PlanetsViewController.swift */,
+				3961EF1028D62C5700302A21 /* PlanetsAspectsViewController.swift */,
+				39C77DE328D2EFF400C02B12 /* TransitPlanetsViewController.swift */,
+				3961EF4328D8028B00302A21 /* MajorProgressionsViewController.swift */,
+				3961EF7628DAADCB00302A21 /* MinorProgressedViewController.swift */,
+				39C77DE528D2F3C100C02B12 /* PartnersPlanetsViewController.swift */,
+				39DA3AAF28C5B26A0018FD09 /* Planet View Controllers */,
+				39B24FC228B7178D0080CE79 /* Assets.xcassets */,
+				39B24FC428B7178D0080CE79 /* LaunchScreen.storyboard */,
+				39B24FC728B7178D0080CE79 /* Info.plist */,
+				39B24FBF28B7178D0080CE79 /* MVP.xcdatamodeld */,
+			);
+			path = MVP;
+			sourceTree = "<group>";
+		};
+		39DA3AAF28C5B26A0018FD09 /* Planet View Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				391ECCE028C5536A0009A1F9 /* SunViewController.swift */,
+				39C77DE728D2FC5900C02B12 /* AscendantViewController.swift */,
+				39DA3AB028C5B2890018FD09 /* MoonViewController.swift */,
+				398341D428C8362100201E4C /* MercuryViewController.swift */,
+				398341D628C8362C00201E4C /* VenusViewController.swift */,
+				398341D828C8363600201E4C /* MarsViewController.swift */,
+				398341DA28C8364000201E4C /* JupiterViewController.swift */,
+				398341DC28C8364A00201E4C /* SaturnViewController.swift */,
+				398341DE28C8365400201E4C /* UranusViewController.swift */,
+				398341E028C8366100201E4C /* NeptuneViewController.swift */,
+				398341E228C8366B00201E4C /* PlutoViewController.swift */,
+			);
+			path = "Planet View Controllers";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		39B24FB228B7178D0080CE79 /* MVP */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 39B24FCA28B7178D0080CE79 /* Build configuration list for PBXNativeTarget "MVP" */;
+			buildPhases = (
+				39B24FAF28B7178D0080CE79 /* Sources */,
+				39B24FB028B7178D0080CE79 /* Frameworks */,
+				39B24FB128B7178D0080CE79 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MVP;
+			packageProductDependencies = (
+				391ECCB628C52C510009A1F9 /* SwiftDate */,
+				391ECCB928C52C750009A1F9 /* SwissEphemeris */,
+			);
+			productName = MVP;
+			productReference = 39B24FB328B7178D0080CE79 /* MVP.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		39B24FAB28B7178D0080CE79 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1340;
+				LastUpgradeCheck = 1340;
+				TargetAttributes = {
+					39B24FB228B7178D0080CE79 = {
+						CreatedOnToolsVersion = 13.4.1;
+					};
+				};
+			};
+			buildConfigurationList = 39B24FAE28B7178D0080CE79 /* Build configuration list for PBXProject "MVP" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 39B24FAA28B7178D0080CE79;
+			packageReferences = (
+				391ECCB428C52BDA0009A1F9 /* XCRemoteSwiftPackageReference "SwiftDate" */,
+				391ECCB528C52C510009A1F9 /* XCRemoteSwiftPackageReference "SwiftDate" */,
+				391ECCB828C52C750009A1F9 /* XCRemoteSwiftPackageReference "SwissEphemeris" */,
+			);
+			productRefGroup = 39B24FB428B7178D0080CE79 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				39B24FB228B7178D0080CE79 /* MVP */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		39B24FB128B7178D0080CE79 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				39B24FC628B7178D0080CE79 /* LaunchScreen.storyboard in Resources */,
+				39B24FC328B7178D0080CE79 /* Assets.xcassets in Resources */,
+				39B24FBE28B7178D0080CE79 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		39B24FAF28B7178D0080CE79 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				395C3BA128BAC20600A4E812 /* FourthHouseViewController.swift in Sources */,
+				391ECCF128C562570009A1F9 /* TransitAspectsViewController.swift in Sources */,
+				3961EF4028D68B3400302A21 /* natalAscAspects.swift in Sources */,
+				395C3BC528BAD61B00A4E812 /* EighthHousePlanetViewController copy 8.swift in Sources */,
+				395C3BB328BACDAF00A4E812 /* TwelthHouseViewController.swift in Sources */,
+				398341D728C8362C00201E4C /* VenusViewController.swift in Sources */,
+				395C3B9928BA9ACE00A4E812 /* HousesPlanetsSigns.swift in Sources */,
+				395C3BAF28BACAE000A4E812 /* EleventhHouseViewController.swift in Sources */,
+				391ECCDB28C550250009A1F9 /* CompositeItemsViewController.swift in Sources */,
+				3961EF2028D6431200302A21 /* NatalMarsAspectsViewController.swift in Sources */,
+				395C3B9D28BABAA500A4E812 /* SecondHouseViewController.swift in Sources */,
+				395C3BA328BAC94100A4E812 /* FifthHouseViewController.swift in Sources */,
+				3961EF1128D62C5700302A21 /* PlanetsAspectsViewController.swift in Sources */,
+				39B24FBB28B7178D0080CE79 /* ViewController.swift in Sources */,
+				391ECCCE28C530740009A1F9 /* empjis.swift in Sources */,
+				3961EF2428D6433400302A21 /* NatalSaturnAspectsViewController.swift in Sources */,
+				395C3BB928BAD61200A4E812 /* ThirdHousePlanetViewController copy 2.swift in Sources */,
+				395C3B9F28BABEF000A4E812 /* ThirdHouseViewController.swift in Sources */,
+				3961EF2628D6434300302A21 /* NatalUranusAspectsViewController.swift in Sources */,
+				3961EF2C28D6465900302A21 /* natalSunAspects.swift in Sources */,
+				395C3BA728BAC9B800A4E812 /* SeventhHouseViewController.swift in Sources */,
+				39B24FCE28B71A390080CE79 /* CustomTableViewCell.swift in Sources */,
+				395C3BBD28BAD61600A4E812 /* FifthHousePlanetViewController copy 4.swift in Sources */,
+				3961EF3A28D6470300302A21 /* natalNeptuneAspects.swift in Sources */,
+				3961EF3828D646F500302A21 /* natalUranusAspects.swift in Sources */,
+				39C77DF428D364E200C02B12 /* MovingMarsViewController.swift in Sources */,
+				395C3BBB28BAD61400A4E812 /* FourthHousePlanetViewController copy 3.swift in Sources */,
+				398341DF28C8365400201E4C /* UranusViewController.swift in Sources */,
+				398341D928C8363600201E4C /* MarsViewController.swift in Sources */,
+				3961EF0B28D58F2000302A21 /* neptuneAspects.swift in Sources */,
+				3961EF1C28D642F200302A21 /* NatalMercuryAspectsViewController.swift in Sources */,
+				391ECCFB28C590300009A1F9 /* location Manager.swift in Sources */,
+				3961EF2A28D6435A00302A21 /* NatalPlutoAspectsViewController.swift in Sources */,
+				395C3BBF28BAD61700A4E812 /* NinthHousePlanetViewController copy 5.swift in Sources */,
+				391ECCB328C52BB20009A1F9 /* NewViewController.swift in Sources */,
+				391ECCE728C55A990009A1F9 /* ddViewController.swift in Sources */,
+				3961EF1828D6405500302A21 /* NatalMoonAspectsViewController.swift in Sources */,
+				39C77DFE28D3651B00C02B12 /* MovingPlutoViewController.swift in Sources */,
+				391ECCC328C52E490009A1F9 /* Houses.swift in Sources */,
+				3961EEFF28D58DE400302A21 /* mercuryAspects.swift in Sources */,
+				395C3BA528BAC95000A4E812 /* SixthHouseViewController.swift in Sources */,
+				39C77DF228D364D700C02B12 /* MovingVenusViewController.swift in Sources */,
+				395C3B9B28BAAE3400A4E812 /* FirstFirstHousePlanetViewController.swift in Sources */,
+				3961EF1E28D642FC00302A21 /* NatalVenusAspectsViewController.swift in Sources */,
+				39C77DEC28D364AA00C02B12 /* MovingMoonViewController.swift in Sources */,
+				391ECCE328C553CF0009A1F9 /* partnersHouses.swift in Sources */,
+				3961EF0128D58E5C00302A21 /* venusAspects.swift in Sources */,
+				391ECCF328C562980009A1F9 /* moving sun aspects.swift in Sources */,
+				3961EF3428D646CF00302A21 /* natalMarsAspects.swift in Sources */,
+				3961EF2828D6434D00302A21 /* NataNeptuneAspectsViewController.swift in Sources */,
+				39C77DEA28D3649B00C02B12 /* MovingSunViewController.swift in Sources */,
+				395C3BC728BAD61C00A4E812 /* TenthHousePlanetViewController copy 9.swift in Sources */,
+				39B24FD028B7C7440080CE79 /* PlanetsSIgns.swift in Sources */,
+				398341E328C8366B00201E4C /* PlutoViewController.swift in Sources */,
+				39C77DE428D2EFF400C02B12 /* TransitPlanetsViewController.swift in Sources */,
+				398341D528C8362100201E4C /* MercuryViewController.swift in Sources */,
+				39B24FB728B7178D0080CE79 /* AppDelegate.swift in Sources */,
+				3961EEFD28D58B9700302A21 /* moonAspects.swift in Sources */,
+				398341E128C8366100201E4C /* NeptuneViewController.swift in Sources */,
+				395FD69028DAD2A900AC046F /* minors.swift in Sources */,
+				395C3BC328BAD61900A4E812 /* SixthHousePlanetViewController copy 7.swift in Sources */,
+				391ECCEF28C5623C0009A1F9 /* Natal Aspects.swift in Sources */,
+				39DA3AB128C5B2890018FD09 /* MoonViewController.swift in Sources */,
+				391ECCED28C561EE0009A1F9 /* NatalAspectsViewController.swift in Sources */,
+				3961EF1328D63D3E00302A21 /* nataljupiteraspects.swift in Sources */,
+				391ECCD928C550120009A1F9 /* PartnersItemsViewController.swift in Sources */,
+				391ECCEB28C561C30009A1F9 /* Natal Houses.swift in Sources */,
+				39DB7B3F28BC375C008CB278 /* FirstFirstHousePlanetViewController copy2.swift in Sources */,
+				391ECCE128C5536A0009A1F9 /* SunViewController.swift in Sources */,
+				3961EF7528DA8F3000302A21 /* Minors Location Manager.swift in Sources */,
+				39C77DFC28D3650F00C02B12 /* MovingNeptuneViewController.swift in Sources */,
+				39B24FB928B7178D0080CE79 /* SceneDelegate.swift in Sources */,
+				3961EF3028D646BC00302A21 /* natalMercuryAspects.swift in Sources */,
+				398341E628C83A7500201E4C /* PlanetsViewController.swift in Sources */,
+				39C77DF828D364F900C02B12 /* MovingSaturnViewController.swift in Sources */,
+				398341E828C83B0200201E4C /* MyPlanetsTextViewViewController.swift in Sources */,
+				395C3BC128BAD61800A4E812 /* SeventhHousePlanetViewController copy 6.swift in Sources */,
+				398341DD28C8364A00201E4C /* SaturnViewController.swift in Sources */,
+				3961EF1628D6404800302A21 /* NatalSunAspectsViewController.swift in Sources */,
+				395C3BAD28BACAD400A4E812 /* TenthHouseViewController.swift in Sources */,
+				395C3BAB28BACABC00A4E812 /* NinthHouseViewController.swift in Sources */,
+				395C3BB528BAD5E400A4E812 /* SecondHousePlanetViewController copy.swift in Sources */,
+				3961EF0728D58F0900302A21 /* saturnAspects.swift in Sources */,
+				39C77DEE28D364BC00C02B12 /* MovingAscendantViewController.swift in Sources */,
+				3961EF2E28D646A300302A21 /* natalMoonAspects.swift in Sources */,
+				391ECCD528C54FC80009A1F9 /* SynastryViewController.swift in Sources */,
+				3961EF2228D6432B00302A21 /* NatalJupiterAspectsViewController.swift in Sources */,
+				39C77DE828D2FC5900C02B12 /* AscendantViewController.swift in Sources */,
+				3961EF0528D58EF800302A21 /* jupiterAspects.swift in Sources */,
+				391ECCFD28C59C0B0009A1F9 /* FirstViewController.swift in Sources */,
+				398341EA28C85BC200201E4C /* secondnewViewController.swift in Sources */,
+				395C3BCB28BAE00700A4E812 /* EighthHousePlanetViewController2.swift in Sources */,
+				3961EF1A28D642E500302A21 /* NatalAscendantAspectsViewController.swift in Sources */,
+				3961EF0328D58EEE00302A21 /* marsAspects.swift in Sources */,
+				395C3B9528BA953500A4E812 /* FirstHouseViewController.swift in Sources */,
+				3961EF0F28D5921900302A21 /* aspectsInfo.swift in Sources */,
+				391ECCF728C563010009A1F9 /* Major progressed aspects.swift in Sources */,
+				39B24FC128B7178D0080CE79 /* MVP.xcdatamodeld in Sources */,
+				391ECCE928C561550009A1F9 /* TodayViewController.swift in Sources */,
+				39C77DF628D364ED00C02B12 /* MovingJupiterViewController.swift in Sources */,
+				395C3BCD28BAE74A00A4E812 /* NinthHousePlanetViewController2 copy.swift in Sources */,
+				39C77DF028D364CD00C02B12 /* MovingMercuryViewController.swift in Sources */,
+				398341DB28C8364000201E4C /* JupiterViewController.swift in Sources */,
+				395C3B9728BA9A1500A4E812 /* HousesCustomTableViewCell.swift in Sources */,
+				395C3BA928BACAB200A4E812 /* EighthHouseViewController.swift in Sources */,
+				391ECCD028C530A50009A1F9 /* locManager.swift in Sources */,
+				395C3BB728BAD61000A4E812 /* TwelfthHousePlanetViewController copy.swift in Sources */,
+				3961EF0D28D58F2F00302A21 /* plutoAspects.swift in Sources */,
+				3961EF3628D646E400302A21 /* natalSaturnAspects.swift in Sources */,
+				3961EF0928D58F1500302A21 /* uranusAspects.swift in Sources */,
+				391ECCBE28C52D040009A1F9 /* planets.swift in Sources */,
+				391ECCE528C554410009A1F9 /* PartnersProgressions.swift in Sources */,
+				3961EF3C28D6471100302A21 /* natalPlutoAspects.swift in Sources */,
+				3961EF4428D8028B00302A21 /* MajorProgressionsViewController.swift in Sources */,
+				3961EEFB28D5789E00302A21 /* AspectsCustomTableViewCell.swift in Sources */,
+				3961EF3228D646C600302A21 /* natalVenusAspects.swift in Sources */,
+				39DA3AAE28C5A31F0018FD09 /* MyHousesViewController.swift in Sources */,
+				39C77DE628D2F3C100C02B12 /* PartnersPlanetsViewController.swift in Sources */,
+				395C3BC928BAD61D00A4E812 /* EleventhHousePlanetViewController copy 10.swift in Sources */,
+				39C77DFA28D3650600C02B12 /* MovingUranusViewController.swift in Sources */,
+				391ECCF528C562C70009A1F9 /* MajorAspectsViewController.swift in Sources */,
+				391ECCF928C563730009A1F9 /* progression aspect location manager.swift in Sources */,
+				391ECCD728C54FFA0009A1F9 /* MyItemsViewController.swift in Sources */,
+				3961EF7728DAADCB00302A21 /* MinorProgressedViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		39B24FBC28B7178D0080CE79 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				39B24FBD28B7178D0080CE79 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		39B24FC428B7178D0080CE79 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				39B24FC528B7178D0080CE79 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		39B24FC828B7178D0080CE79 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		39B24FC928B7178D0080CE79 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		39B24FCB28B7178D0080CE79 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 4PWJ79V344;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = MVP/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = life.rickywilliams.MVP;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		39B24FCC28B7178D0080CE79 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 4PWJ79V344;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = MVP/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = life.rickywilliams.MVP;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		39B24FAE28B7178D0080CE79 /* Build configuration list for PBXProject "MVP" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				39B24FC828B7178D0080CE79 /* Debug */,
+				39B24FC928B7178D0080CE79 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		39B24FCA28B7178D0080CE79 /* Build configuration list for PBXNativeTarget "MVP" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				39B24FCB28B7178D0080CE79 /* Debug */,
+				39B24FCC28B7178D0080CE79 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		391ECCB428C52BDA0009A1F9 /* XCRemoteSwiftPackageReference "SwiftDate" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/malcommac/SwiftDate.git";
+			requirement = {
+				branch = master;
+				kind = branch;
+			};
+		};
+		391ECCB528C52C510009A1F9 /* XCRemoteSwiftPackageReference "SwiftDate" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/malcommac/SwiftDate.git";
+			requirement = {
+				branch = master;
+				kind = branch;
+			};
+		};
+		391ECCB828C52C750009A1F9 /* XCRemoteSwiftPackageReference "SwissEphemeris" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/vsmithers1087/SwissEphemeris.git";
+			requirement = {
+				branch = main;
+				kind = branch;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		391ECCB628C52C510009A1F9 /* SwiftDate */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 391ECCB428C52BDA0009A1F9 /* XCRemoteSwiftPackageReference "SwiftDate" */;
+			productName = SwiftDate;
+		};
+		391ECCB928C52C750009A1F9 /* SwissEphemeris */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 391ECCB828C52C750009A1F9 /* XCRemoteSwiftPackageReference "SwissEphemeris" */;
+			productName = SwissEphemeris;
+		};
+/* End XCSwiftPackageProductDependency section */
+
+/* Begin XCVersionGroup section */
+		39B24FBF28B7178D0080CE79 /* MVP.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				39B24FC028B7178D0080CE79 /* MVP.xcdatamodel */,
+			);
+			currentVersion = 39B24FC028B7178D0080CE79 /* MVP.xcdatamodel */;
+			path = MVP.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 39B24FAB28B7178D0080CE79 /* Project object */;
+}
